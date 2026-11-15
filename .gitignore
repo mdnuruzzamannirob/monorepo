@@ -1,10 +1,69 @@
-node_modules
-dist
-.next
-.turbo
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.pnpm-store/
+
+# Build & Cache
+dist/
+build/
+out/
+.next/
+.turbo/
+.expo/
+web-build/
+.vercel/
+.cache/
+
+# Env & Secrets
 .env
-.env.local
-.expo
+.env*.local
+!.env.example
+
+# TypeScript & Linters
 *.tsbuildinfo
 next-env.d.ts
-coverage
+.eslintcache
+
+# Testing
+coverage/
+.nyc_output/
+
+# AI Tools & Agents
+.marscode/
+.trae/
+.kilocode/
+.kilo/
+.codex/
+.cursor/
+.claude/
+.windsurf/
+.cline/
+.roo/
+.gemini/
+.continue/
+.aider*
+.zed/
+.qodo/
+.codeium/
+.tabnine/
+.amazonq/
+.copilot/
+.openclaw/
+.hermes/
+.opencode/
+.uignore
+*.local.md
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs & Temp
+logs/
+*.log
+tmp/
+temp/
