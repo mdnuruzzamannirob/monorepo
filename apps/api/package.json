@@ -9,5 +9,22 @@
     "start": "node --env-file-if-exists=.env dist/index.mjs",
     "typecheck": "tsc",
     "test": "vitest run"
+  },
+  "devDependencies": {
+    "@myapp/typescript-config": "workspace:*",
+    "@types/cors": "catalog:",
+    "@types/express": "catalog:",
+    "@types/node": "catalog:",
+    "tsdown": "catalog:",
+    "tsx": "catalog:",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "@myapp/types": "workspace:*",
+    "@myapp/validators": "workspace:*",
+    "cors": "catalog:",
+    "express": "catalog:",
+    "helmet": "catalog:",
+    "zod": "catalog:"
   }
 }

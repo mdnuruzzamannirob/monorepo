@@ -9,5 +9,12 @@
   "scripts": {
     "typecheck": "tsc",
     "test": "vitest run"
+  },
+  "devDependencies": {
+    "@myapp/typescript-config": "workspace:*",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "zod": "catalog:"
   }
 }

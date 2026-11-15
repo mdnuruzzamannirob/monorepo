@@ -2,7 +2,9 @@
   "name": "myapp",
   "private": true,
   "packageManager": "pnpm@12.21.0",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
@@ -11,5 +13,11 @@
     "lint": "biome check .",
     "format": "biome check --write .",
     "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "lefthook": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
   }
 }
